@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ openQueryModal }) => {
             className="hidden md:flex items-center space-x-2 bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 transition-all duration-200 font-medium"
           >
             <MessageCircle size={16} />
-            <span>Have Query</span>
+            <span>Have Query❓</span>
           </button>
 
           {/* Mobile Menu Button */}

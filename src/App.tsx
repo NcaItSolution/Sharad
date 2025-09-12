@@ -384,6 +384,7 @@ function App() {
               © 2025 SHARAD-SCRIPTWRITER. All rights reserved. Transforming ideas through innovation.
             </p>
           </div>
+          <p>Designed and Developed by NCA IT SOLUTION</p>
         </div>
       </footer>
 
