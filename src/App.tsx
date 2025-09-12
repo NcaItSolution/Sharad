@@ -6,20 +6,19 @@ import ServiceModal from './components/ServiceModal';
 import ImageCarousel from './components/ImageCarousel';
 import Logo from '../public/sharad-logo.png'
 import About1 from '../public/About1.jpg';
-import About2 from '../public/About2.jpeg';
-import About3 from '../public/About3.jpeg';
-import About4 from '../public/About4.jpeg';
+import About2 from '../public/About2.jpg';
+import About3 from '../public/About3.jpg';
 import Off1 from '../public/Off1.jpeg';
 import Off2 from '../public/Off2.jpeg';
 import Off3 from '../public/Off3.jpeg';
 import Off4 from '../public/Off4.jpeg';
-import Services1 from '../public/Services1.jpeg';
-import Services2 from '../public/Services2.jpeg';
-import Services3 from '../public/Services3.jpeg';
-import Services4 from '../public/Services4.jpeg';
-import Services5 from '../public/Services5.jpeg';
-import Services6 from '../public/Services6.jpeg';
-import Services7 from '../public/Services7.jpeg';
+import Services1 from '../public/Services1.jpg';
+import Services2 from '../public/Services2.jpg';
+import Services3 from '../public/Services3.jpg';
+import Services4 from '../public/Services4.jpg';
+import Services5 from '../public/Services5.jpg';
+import Services6 from '../public/Services6.jpg';
+import Services7 from '../public/Services7.jpg';
 import Video from '../public/SaradWebsiteVideo.mp4';
 
 
@@ -39,8 +38,7 @@ function App() {
   const aboutImages = [
     About1,
     About2,
-    About3,
-    About4
+    About3
   ];
 
   const whatWeDoImages = [
@@ -135,12 +133,7 @@ function App() {
         </div>
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Welcome to the Future
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Transforming ideas through innovative solutions and cutting-edge scripts
-          </p>
+         
           <button
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="inline-flex items-center space-x-2 bg-white text-black px-8 py-4 rounded-full hover:bg-gray-200 transition-all duration-200 font-medium text-lg"
@@ -383,8 +376,9 @@ function App() {
             <p className="text-gray-400">
               © 2025 SHARAD-SCRIPTWRITER. All rights reserved. Transforming ideas through innovation.
             </p>
+            <p>Designed and Developed by NCA IT SOLUTION</p>
           </div>
-          <p>Designed and Developed by NCA IT SOLUTION</p>
+          
         </div>
       </footer>
 
