@@ -134,13 +134,13 @@ function App() {
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
          
-          <button
+          {/* <button
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="inline-flex items-center space-x-2 bg-white text-black px-8 py-4 rounded-full hover:bg-gray-200 transition-all duration-200 font-medium text-lg"
           >
             <Play size={20} />
             <span>Get Started</span>
-          </button>
+          </button> */}
         </div>
       </section>
 
