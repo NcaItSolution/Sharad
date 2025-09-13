@@ -108,7 +108,7 @@ function App() {
 
   const openWhatsApp = (message: string) => {
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/+918584969531?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/+916291836498?text=${encodedMessage}`, '_blank');
   };
 
   return (
@@ -150,7 +150,7 @@ function App() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <ImageCarousel images={aboutImages} className="h-64 sm:h-80 lg:h-96" />
+              <ImageCarousel images={aboutImages} className="h-[400px] sm:h-[450px] lg:h-[500px]" />
             </div>
 
             <div className="order-1 lg:order-2">
@@ -221,7 +221,7 @@ function App() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-              <ImageCarousel images={whatWeDoImages} className="h-64 sm:h-80 lg:h-96" />
+              <ImageCarousel images={whatWeDoImages} className="h-[400px] sm:h-[450px] lg:h-[500px]" />
             </div>
 
 
@@ -336,7 +336,7 @@ function App() {
                     <p className="text-gray-400">Call us anytime</p>
                   </div>
                 </div>
-                <p className="text-white text-lg font-medium">+91 8584969531</p>
+                <p className="text-white text-lg font-medium">+91 6291836498</p>
                 <p className="text-gray-400 mt-2">Available 24/7 for urgent matters</p>
               </div>
 

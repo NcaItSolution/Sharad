@@ -16,7 +16,7 @@ const QueryModal: React.FC<QueryModalProps> = ({ isOpen, onClose }) => {
       const whatsappMessage = `Hi! My name is ${name}. ${message}`;
       const encodedMessage = encodeURIComponent(whatsappMessage);
       window.open(
-        `https://wa.me/918584969531?text=${encodedMessage}`, // ✅ removed unnecessary '+'
+        `https://wa.me/916291836498?text=${encodedMessage}`, // ✅ removed unnecessary '+'
         '_blank'
       );
       setName('');
